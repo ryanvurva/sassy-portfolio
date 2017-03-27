@@ -1,9 +1,6 @@
-@mixin font-smoothing($value: on) {
-  @if $value == on {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-  } @else {
-    -moz-osx-font-smoothing: auto;
-    -webkit-font-smoothing: subpixel-antialiased;
-  }
+$mainGrey: #272827;
+
+@mixin animate {
+  animation-name: fadein;
+  animation-duration: 2s;
 }
