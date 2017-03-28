@@ -1,6 +1,22 @@
 $mainGrey: #272827;
+$fullWidth: 100%;
+$fullHeight: 100%;
+$white: #fff;
 
 @mixin animate {
   animation-name: fadein;
   animation-duration: 2s;
+
+  @keyframes fadein {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
 }
+
+
+
+// color: fade-out( $highlight, 0.5 );
